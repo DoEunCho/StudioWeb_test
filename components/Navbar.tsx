@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import { useAppState } from '../AppContext';
+import { useAppState } from '../AppContext.tsx';
 
 export const Navbar: React.FC = () => {
   const { settings } = useAppState();

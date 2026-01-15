@@ -1,13 +1,13 @@
 
 import React from 'react';
-import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { Portfolio } from './components/Portfolio';
-import { Services } from './components/Services';
-import { Contact } from './components/Contact';
-import { Footer } from './components/Footer';
-import { AdminPanel } from './components/AdminPanel';
-import { AppProvider, useAppState } from './AppContext';
+import { Navbar } from './components/Navbar.tsx';
+import { Hero } from './components/Hero.tsx';
+import { Portfolio } from './components/Portfolio.tsx';
+import { Services } from './components/Services.tsx';
+import { Contact } from './components/Contact.tsx';
+import { Footer } from './components/Footer.tsx';
+import { AdminPanel } from './components/AdminPanel.tsx';
+import { AppProvider, useAppState } from './AppContext.tsx';
 import { LayoutGrid, Eye } from 'lucide-react';
 
 const MainContent: React.FC = () => {

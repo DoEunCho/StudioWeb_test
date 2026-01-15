@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, Sparkles } from 'lucide-react';
-import { useAppState } from '../AppContext';
+import { useAppState } from '../AppContext.tsx';
 
 export const Hero: React.FC = () => {
   const { settings } = useAppState();

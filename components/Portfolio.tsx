@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { useAppState } from '../AppContext';
+import { useAppState } from '../AppContext.tsx';
 import { ExternalLink } from 'lucide-react';
 
 export const Portfolio: React.FC = () => {

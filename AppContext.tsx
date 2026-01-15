@@ -1,6 +1,6 @@
 
 import React, { createContext, useContext, useState } from 'react';
-import { PortfolioItem, SiteSettings, AppState } from './types';
+import { PortfolioItem, SiteSettings, AppState } from './types.ts';
 
 interface AppContextType {
   portfolio: PortfolioItem[];

@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { useAppState } from '../AppContext';
+import { useAppState } from '../AppContext.tsx';
 import { Settings, Image as ImageIcon, Plus, Trash2, Save, LayoutGrid, ChevronRight, LogOut } from 'lucide-react';
 
 export const AdminPanel: React.FC = () => {
