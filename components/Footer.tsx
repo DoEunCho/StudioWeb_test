@@ -1,7 +1,6 @@
-
 import React from 'react';
-// Fix: Import useAppState from AppContext instead of App
-import { useAppState } from '../AppContext';
+// 확장자를 추가하여 경로를 명확히 합니다.
+import { useAppState } from '../AppContext.tsx';
 
 export const Footer: React.FC = () => {
   const { settings } = useAppState();
